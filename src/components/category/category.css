@@ -1,0 +1,22 @@
+.active *{
+    font-weight: bold;
+}
+
+.regular-category{
+    line-height: 30px;
+  
+}
+.category *{
+      color: white;
+}
+
+.new-email-btn{
+    background-color: #6a5e95;
+    line-height: 50px;
+    border-right: 1px solid #404258;;
+}
+
+.num-of-element-in-category{
+   background-color: #43455c; 
+   width:20px;
+}

@@ -1,0 +1,30 @@
+.home-page-content{
+    display:grid;
+    grid-template-columns: 200px 35% 50%;
+    grid-template-rows: 50px 50px auto;
+    height: 100vh;
+}
+.top-navbar{
+    grid-area: 1/1/2/4;
+    background-color: #404258;
+    display: flex;
+    justify-content: space-between;
+}
+.email-data-navbar{
+    grid-area: 2/2/3/4;
+    background-color: #6a5e95;
+}
+.category-list{
+    grid-area: 2/1/4/2;
+    background-color: #404258;
+}
+.emails-list{
+    grid-area: 3/2/4/3 ;
+}
+.specific-email{
+    grid-area: 3/3/4/4;
+}
+
+.email-tag{
+    color:lightslategrey;
+}

@@ -1,0 +1,7 @@
+.unRead *{
+    font-weight: bold !important;
+}
+
+.short-email{
+     margin: 15px !important;
+}
